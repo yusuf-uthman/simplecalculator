@@ -16,5 +16,7 @@ elif op=="-":
     print("{} - {} = {}".format(n1,n2,n1-n2))
 elif op=="/":
     print("{} / {} = {}".format(n1,n2,n1/n2))
+elif op=="**":
+    print("{} ** {} = {}".format(n1,n2,n1**n2))    
 else:
     print("incorrect math operator!!! Please Enter *, +, / or -")
